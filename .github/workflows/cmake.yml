@@ -1,12 +1,12 @@
 name: 'C++ CI'
 
 on:
-#   push:
+  push:
 #     branches:
-#       - master
-  create:
-   tags:
-      - v*
+      - master
+#   create:
+#    tags:
+#       - v*
 
 jobs:
   build:
